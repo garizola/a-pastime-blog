@@ -1,0 +1,175 @@
+.container-about {
+    background-color: var(--white);
+    height: 100svh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+      'abText abText abText'
+      'green green green'
+      'green green green'
+      'green green green'
+      'blackSecAbout thumb thumb'
+      'blackSecAbout thumb thumb'
+      ;
+  }
+
+
+  .aboutText {
+    grid-area: abText;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    padding: 0px;
+
+  }
+  .aboutText h2 {
+    font-size: 86px;
+   color: var(--black);
+    margin: 0px;
+    line-height: 0px;
+    padding: 0px;
+  }
+.thumbprint {
+    background-image: url("/public/fingerprint.png");
+    background-position: center;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    grid-area: thumb;
+    position: relative;
+}
+
+
+
+.copy-about {
+    grid-area: blackSecAbout;
+    background-color: var(--black);
+    position: relative;
+}
+
+.box-text-about {
+    margin: 6px;
+    color: var(--beige);
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    line-height: 8px;
+    font-size: 8px;
+  }
+  
+  .box-text-about span {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+  }
+  
+  .box-text-about p {
+    margin-block: 0px;
+  }
+  .bt-about span{
+    width: 90px;
+   
+  }
+  .blurb {
+    grid-area: green;
+    /* background-color: var(--black); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.random-about {
+    grid-area: green;
+    /* background-color: var(--green); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+  .box-text-about-blurb {
+    color: var(--black);
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 11px;
+  
+    max-width: 400px;
+   
+
+    width: 100%;
+    padding-inline: 12px;
+    
+  }
+  
+  .box-text-about-blurb span {
+    display: flex;
+
+  }
+  
+  .box-text-about-blurb p {
+    margin-block: 0px;
+    text-align: justify;
+    line-height: 1.9;
+  }
+  .bt-about-blurb span{
+    width: 90px;
+   
+  }
+
+  @media only screen and (min-width: 968px) {
+   .box-text-about-blurb {
+    color: var(--black);
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 16px;
+  
+    max-width: 950px;
+   
+
+    width: 100%;
+    padding-inline: 10px;
+    
+  }
+  
+  .box-text-about {
+    margin: 12px;
+    color: var(--beige);
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+    font-size: 10px;
+  }
+  
+  .box-text-about span {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  }
+  
+  .box-text-about p {
+    margin-block: 0px;
+    line-height: 1.1;
+  }
+  .bt-about span{
+    width: 120px;
+   
+  }
+
+  
+  }

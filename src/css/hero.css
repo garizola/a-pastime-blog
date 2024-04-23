@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+:root {
+  --white: rgba(255, 255, 223, 1) ;
+  /* --beige: rgba(248, 246, 198, 1); */
+  --beige: rgba(255, 255, 223, 1);
+  --green: rgba(77, 170, 73, 1);
+  --black: rgba(30, 30, 30, 1);
+  --orange: rgba(237, 95, 42, 1);
+  --navy: rgba(41, 58, 104, 1);
+  --yellow: rgba(242, 169, 67, 1);
+
+}
+
+.iconnn {
+  width: auto;
+  height: 20px;
+  color: var(--navy);
+  position: absolute;
+  bottom: 0;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 0%;
+  background-color: var(--beige);
+  transition: border-radius 0.3s ease-in-out;
+}
+
+.iconnn:hover, .iconnn:active {
+  border-radius: 50%;
+  
+}
+
+.anton {
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-bold {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 86px;
+  transition: color 0.3s ease-in-out;
+  /* letter-spacing: 1px; */
+  color: var(--beige);
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  margin-block: 0px;
+  line-height: 0.9;
+  /* background-color: purple;
+  padding: 15px 10px;
+  border-radius: 50%; */
+}
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+}
+
+/* .App {
+  position: relative;
+} */
+
+.container {
+  height: 100svh;
+
+  display: grid;
+  grid-template-areas:
+    'green green green green beige beige beige beige'
+    'green green green green beige beige beige beige'
+    'green green green green beige beige beige beige'
+    'navy navy orange orange orange blaSec blaSec blaSec'
+    'navy navy orange orange orange blaSec blaSec blaSec'
+    'navy navy orange orange orange blaSec blaSec blaSec'
+    'navy navy yelSec yelSec yelSec yelSec yelSec yelSec'
+    'navy navy yelSec yelSec yelSec yelSec yelSec yelSec';
+}
+
+.box {
+  font-size: 8px;
+  position: relative;
+ /* */
+}
+
+
+.box-text {
+  margin: 6px;
+  color: rgba(31, 31, 32, 1);
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  line-height: 8px;
+}
+
+.box-text span {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
+
+.box-text p {
+  margin-block: 0px;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.box-text-light {
+  color: rgba(223, 224, 201, 1);
+}
+
+.color-box__beige {
+  background-color: var(--beige);
+  grid-area: beige;
+}
+
+.color-box__green {
+  background-color: var(--green);
+  grid-area: green;
+}
+
+.color-box__navy {
+  background-color: var(--navy);
+  grid-area: navy;
+}
+
+.color-box__black {
+  background-color: var(--black);
+  grid-area: blaSec;
+}
+
+.color-box__orange {
+  background-color: var(--orange);
+  grid-area: orange;
+
+}
+
+.color-box__yellow {
+  background-color: var(--yellow);
+  grid-area: yelSec;
+}
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+
+  
+}

@@ -1,0 +1,75 @@
+.nav-container {
+    position: fixed;
+
+    top: 0;
+    z-index: 100;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    letter-spacing: 1px;
+    /* width: 100vw; */
+    /* border-bottom: 2px solid black; */
+    transition: color 0.3s ease-in-out;
+    /* background-color: red; */
+
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.home-button {
+    background-color: var(--black);
+    padding: 6px 11px;
+    /* border-radius: 100%; */
+    margin-left: 8px;
+    margin-block: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+.nav-container .home-button a {
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-container a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+    
+}
+
+.home-button:hover, .home-button:active {
+    background-color: var(--orange);
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 0px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-container a:hover {
+    transition: color 0.3s ease-in-out;
+    color: var(--orange);
+}
+#buttonText {
+    color: var(--beige);
+}
+
+@media only screen and (min-width: 968px) {
+    
+    .nav-container a {
+        color: var(--black);
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 200;
+
+    }
+}
