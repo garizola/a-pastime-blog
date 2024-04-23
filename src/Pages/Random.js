@@ -18,14 +18,7 @@ const Random = () => {
             </span>
           </div>
         </div>
-        <video
-          src={video}
-          autoPlay
-          loop
-          muted
-          playsinline
-          className="random-video"
-        />
+        <video src={video} autoPlay loop muted className="random-video" />
         <div className="box-text-random bottom-right ">
           <span>
             <p>test</p> <p>video</p>
