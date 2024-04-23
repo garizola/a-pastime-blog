@@ -4,7 +4,7 @@ import "../css/nav.css";
 const Nav = () => {
   return (
     <div className="nav-container">
-      <a className="home-button anton" href="#" id="buttonText">
+      <a className="home-button anton" href="#home" id="buttonText">
         aT
       </a>
       <div className="nav-links">

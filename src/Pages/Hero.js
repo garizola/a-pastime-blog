@@ -5,7 +5,7 @@ import { FaArrowDownLong } from "react-icons/fa6";
 const Hero = () => {
   const [headingColor, setHeadingColor] = useState("");
   return (
-    <div class="container">
+    <div class="container" id="home">
       <div
         class="color-box__beige box"
         onMouseOver={() => setHeadingColor("rgba(248, 246, 198, 1)")}
