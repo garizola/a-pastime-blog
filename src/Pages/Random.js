@@ -21,7 +21,7 @@ const Random = () => {
         <video src={video} autoPlay loop muted className="random-video" />
         <div className="box-text-random bottom-right ">
           <span>
-            <p>alhpaville</p> <p>godard</p>
+            <p>alphaville</p> <p>godard</p>
           </span>
           <span>
             <p>test</p> <p>video</p>
