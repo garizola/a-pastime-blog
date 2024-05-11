@@ -1,86 +1,85 @@
 .container-random {
     background-color: var(--beige);
+    background-color: var(--white);
     height: 100svh;
     width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    /* padding: 20px; */
-  }
-
-  .inside-random {
-    width: 80%;
-    height: 62%;
-    background-color: var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 16px;
+    display: grid;
+    grid-template-areas:
+      'bigeyes cg scream'
+      'lips milk tscott'
+      'dab pokingeyes beach'
+      ;
     
+
   }
-
-
-
-
-
-
   
 
-
-  .random-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
- 
-  /* .blurb-random {
-    width: 100%;
+  .milk {
+    grid-area: milk; 
+    /* background-image: url('/public/milk1.jpeg'); */
+    background-color: var(--beige);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-} */
-
-.box-text-random-blurb {
-    
-    font-size: 12px;
-    max-width: 400px;
-    width: 100%;
-    padding-inline: 12px;
+    text-align: center;
     
   }
 
-  .box-text-random-blurb p {
-    margin-block: 0px;
-    text-align: justify;
-    line-height: 1.9;
+  .tscott {
+    grid-area: tscott; 
+    background-image: url('/public/tscott.jpeg');
+  }
+
+  .lips {
+    grid-area: lips; 
+    background-image: url('/public/lips.jpeg');
+  }
+
+
+  .dabpic {
+    grid-area: dab; 
+    background-image: url('/public/dabpic.jpeg');
+  }
+
+  .beachhead {
+    grid-area: beach; 
+    background-image: url('/public/beachhead.jpeg');
+  }
+
+  .scream {
+    grid-area: scream; 
+    background-image: url('/public/scream.jpeg');
+  }
+
+  .pokingeyes {
+    grid-area: pokingeyes; 
+    background-image: url('/public/pokingeyes.jpeg');
+  }
+
+  .bigeyes {
+    grid-area: bigeyes; 
+    background-image: url('/public/bigeyes.png');
+  }
+
+  .cg {
+    background-image: url('/public/chantalG.jpeg');
+    grid-area: cg;
+  }
+
+  .imgrand {
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: contain;
+    padding: 0px;
   }
 
   .box-text-random {
-    margin: 6px;
-    color: rgba(31, 31, 32, 1);
+    color: #000;
     font-family: "Noto Sans Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    line-height: 8px;
-  }
-
-  .box-text-random-video {
-    position: absolute;
-    color: var(--beige);
-  }
-  
-  .box-text-random span {
-    display: flex;
-    justify-content: space-between;
-    width: 160px;
-  }
-  
-  .box-text-random p {
-    margin-block: 6px;
-    font-size: 10px;
+    font-size: 8px;
   }
