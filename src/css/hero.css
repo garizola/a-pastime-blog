@@ -36,6 +36,7 @@
   font-family: "Anton", sans-serif;
   font-weight: 500;
   font-style: normal;
+  line-height: 1.1;
 }
 
 .rowdies-light {
@@ -189,10 +190,9 @@ body {
 
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 1.1;
   }
-
 
   
 }

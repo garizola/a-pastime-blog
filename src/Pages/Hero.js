@@ -80,7 +80,7 @@ const Hero = () => {
       </div>
       <div class="color-box__black box">
         <h1 style={{ color: headingColor }} className="anton">
-          a Pastime
+          who is Giovanni?
         </h1>
         <div className="box-text top-left box-text-light">
           <span>

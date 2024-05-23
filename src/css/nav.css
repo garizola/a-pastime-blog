@@ -31,6 +31,7 @@
     cursor: pointer;
     border: none;
     transition: background-color 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out;
     
 }
 
@@ -51,12 +52,13 @@
 .home-button:hover, .home-button:active {
     background-color: var(--orange);
     transition: background-color 0.3s ease-in-out;
-    border-radius: 0px;
+    border-radius: 50%;
     transition: color 0.3s ease-in-out;
 }
 
 .nav-container a:hover {
     transition: color 0.3s ease-in-out;
+    transition: border-radius 0.3s ease-in-out;
     color: var(--orange);
 }
 #buttonText {

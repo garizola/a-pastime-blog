@@ -38,6 +38,15 @@
     grid-area: thumb;
     position: relative;
 }
+.mypic {
+  background-image: url("/public/personal-portrait.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: fit-content;
+  width: 200px;
+ 
+}
 
 
 
@@ -48,7 +57,7 @@
 }
 
 .box-text-about {
-    margin: 6px;
+    margin: 4px;
     color: var(--beige);
     font-family: "Noto Sans Mono", monospace;
     font-optical-sizing: auto;
@@ -56,8 +65,9 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    line-height: 8px;
-    font-size: 8px;
+    line-height: 6px;
+    font-size: 7px;
+    
   }
   
   .box-text-about span {
@@ -99,23 +109,27 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    font-size: 11px;
-    max-width: 400px;
+    font-size: 9px;
+    max-width: 600px;
     width: 100%;
     padding-inline: 12px;
     
   }
   
+
+
+  .box-text-about-blurb ul {
+    padding-inline-start: 12px;
+
+  }
+
   .box-text-about-blurb span {
     display: flex;
 
   }
   
-  .box-text-about-blurb p {
-    margin-block: 0px;
-    text-align: justify;
-    line-height: 1.9;
-  }
+
+
   .bt-about-blurb span{
     width: 90px;
    
@@ -132,7 +146,7 @@
       "wdth" 100;
     font-size: 16px;
   
-    max-width: 950px;
+    max-width: 850px;
    
 
     width: 100%;
@@ -175,8 +189,15 @@
     .aboutText h2 {
         font-size: 86px;
        color: var(--black);
-        margin: 0px;
+        margin-top: 0px;
         line-height: 0.8;
-        padding: 0px;
+        padding-top: 0px;
+        margin-bottom: -10px;
       }
+
+      .aboutText  {
+       
+        margin-bottom: -40px;
+      }
+
   }

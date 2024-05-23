@@ -1,85 +1,47 @@
-.container-random {
-    background-color: var(--beige);
-    background-color: var(--white);
-    height: 100svh;
-    width: 100vw;
-    display: grid;
-    grid-template-areas:
-      'bigeyes cg scream'
-      'lips milk tscott'
-      'dab pokingeyes beach'
-      ;
-    
 
-  }
-  
-
-  .milk {
-    grid-area: milk; 
-    /* background-image: url('/public/milk1.jpeg'); */
-    background-color: var(--beige);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    
-  }
-
-  .tscott {
-    grid-area: tscott; 
-    background-image: url('/public/tscott.jpeg');
-  }
-
-  .lips {
-    grid-area: lips; 
-    background-image: url('/public/lips.jpeg');
-  }
+.brand-about {
+  background-color: var(--white);
+  height: 100svh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    'abText abText abText'
+    'green green green'
+    'green green green'
+    'green green green'
+    'footer footer footer'
+    ;
+}
 
 
-  .dabpic {
-    grid-area: dab; 
-    background-image: url('/public/dabpic.jpeg');
-  }
+.aboutText {
+  grid-area: abText;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 10px;
+  padding: 0px;
 
-  .beachhead {
-    grid-area: beach; 
-    background-image: url('/public/beachhead.jpeg');
-  }
+}
+.aboutText h2 {
+  font-size: 86px;
+ color: var(--black);
+  margin: 0px;
+  line-height: 0px;
+  padding: 0px;
+}
 
-  .scream {
-    grid-area: scream; 
-    background-image: url('/public/scream.jpeg');
-  }
 
-  .pokingeyes {
-    grid-area: pokingeyes; 
-    background-image: url('/public/pokingeyes.jpeg');
-  }
 
-  .bigeyes {
-    grid-area: bigeyes; 
-    background-image: url('/public/bigeyes.png');
-  }
-
-  .cg {
-    background-image: url('/public/chantalG.jpeg');
-    grid-area: cg;
-  }
-
-  .imgrand {
-    /* background-repeat: no-repeat; */
+.mypicture {
+  grid-area: green;
+  background-image: url("/public/personal-portrait.jpg");
     background-position: center;
     background-size: contain;
-    padding: 0px;
-  }
+    background-repeat: no-repeat;
+   margin: 20px;
+   margin-bottom: -90px;
+ 
 
-  .box-text-random {
-    color: #000;
-    font-family: "Noto Sans Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-    font-size: 8px;
-  }
+}
+

@@ -5,14 +5,14 @@ const Nav = () => {
   return (
     <div className="nav-container">
       <a className="home-button anton" href="#home" id="buttonText">
-        aT
+        ga
       </a>
       <div className="nav-links">
         <a className="anton" href="#about">
           about
         </a>
         <a className="anton" href="#random">
-          random
+          picture
         </a>
       </div>
     </div>

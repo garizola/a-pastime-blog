@@ -45,7 +45,7 @@ const About = () => {
           </span>
           <br />
           <span>
-            <p>lol idk yet</p>
+            <p>these change a lot</p>
           </span>
         </div>
 
@@ -62,20 +62,45 @@ const About = () => {
         </div>
       </div>
       <div className="thumbprint"></div>
+      {/* <div className="mypic"></div> */}
       <div className="random-about"></div>
       <div className="blurb">
+        {/* <div className="mypic"></div> */}
         <div className="box-text-about-blurb">
-          <span>
-            <p>
-              Blurb - Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </span>
+          <ul>
+            <li>
+              My name is Giovanni, and I'm a recently graduated web developer
+              looking for my next opportunity! My resume details my skills and
+              experience as well as links to my portfolio, LinkedIn,
+              and&nbsp;GitHub.
+            </li>
+            <br />
+            <li>
+              I'm looking for a position where I can make an immediate impact
+              while continuing to learn and grow as both a developer and an
+              individual! I'm genuinely passionate about web development and
+              really enjoy the every challenge associated with&nbsp;it.
+            </li>
+            <br />
+            <li>
+              I am very open to relocating and do hope my career will lead me
+              somewhere new. Since graduation I have been living with family, so
+              the Salt Lake City area does appeal to me very&nbsp;much!
+            </li>
+            <br />
+            <li>
+              I amy not have expertise in all of the desired skills for this
+              position, but I'm a fast learner and confident in my ability to
+              quickly pick up new skills (my best skill)! I am always eager to
+              embrace new challenges and soak up anything new that is thrown
+              my&nbsp;way.
+            </li>
+            <br />
+            <li>
+              Outside of work, I enjoy playing chess, running, collecting,
+              viewing art, and taking walks in&nbsp;nature!
+            </li>
+          </ul>
         </div>
       </div>
     </div>
