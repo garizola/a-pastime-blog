@@ -89,11 +89,10 @@ const About = () => {
             </li>
             <br />
             <li>
-              I amy not have expertise in all of the desired skills for this
+              I may not have expertise in all of the desired skills for this
               position, but I'm a fast learner and confident in my ability to
-              quickly pick up new skills (my best skill)! I am always eager to
-              embrace new challenges and soak up anything new that is thrown
-              my&nbsp;way.
+              quickly pick up new skills! I am always eager to embrace new
+              challenges and soak up anything new that is thrown my&nbsp;way.
             </li>
             <br />
             <li>
