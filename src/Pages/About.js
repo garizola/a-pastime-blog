@@ -83,9 +83,8 @@ const About = () => {
             </li>
             <br />
             <li>
-              I am very open to relocating and do hope my career will lead me
-              somewhere new. Since graduation I have been living with family, so
-              the Salt Lake City area does appeal to me very&nbsp;much!
+              I am very open to relocating (I don't expect relocation
+              assistance) and do hope my career will lead me somewhere&nbsp;new!
             </li>
             <br />
             <li>
