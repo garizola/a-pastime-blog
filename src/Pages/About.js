@@ -83,8 +83,7 @@ const About = () => {
             </li>
             <br />
             <li>
-              I am open to relocating (I don't expect relocation assistance) and
-              do hope my career will lead me somewhere&nbsp;new!
+              I am open to relocating (I don't expect relocation assistance).
             </li>
             <br />
             <li>
