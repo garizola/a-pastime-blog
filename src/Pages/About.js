@@ -69,34 +69,33 @@ const About = () => {
         <div className="box-text-about-blurb">
           <ul>
             <li>
-              My name is Giovanni, and I'm a recently graduated web developer
-              looking for my next opportunity! My resume details my skills and
-              experience as well as links to my portfolio, LinkedIn,
+              My name is Giovanni, and I'm a recently graduated software
+              developer looking for my next opportunity! My resume details my
+              skills and experience as well as links to my portfolio, LinkedIn,
               and&nbsp;GitHub.
             </li>
             <br />
             <li>
               I'm looking for a position where I can make an immediate impact
               while continuing to learn and grow as both a developer and an
-              individual! I'm genuinely passionate about web development and
-              really enjoy the every challenge associated with&nbsp;it.
+              individual! I'm genuinely passionate about development and really
+              enjoy the every challenge associated with&nbsp;it.
             </li>
             <br />
             <li>
-              I am very open to relocating (I don't expect relocation
-              assistance) and do hope my career will lead me somewhere&nbsp;new!
+              I am open to relocating (I don't expect relocation assistance) and
+              do hope my career will lead me somewhere&nbsp;new!
             </li>
             <br />
             <li>
-              I may not have expertise in all of the desired skills for this
-              position, but I'm a fast learner and confident in my ability to
-              quickly pick up new skills! I am always eager to embrace new
-              challenges and soak up anything new that is thrown my&nbsp;way.
+              I'm a fast learner and confident in my ability to quickly pick up
+              new skills! I am always eager to embrace new challenges and tackle
+              anything new that is thrown my&nbsp;way.
             </li>
             <br />
             <li>
-              Outside of work, I enjoy playing chess, running, collecting,
-              viewing art, and taking walks in&nbsp;nature!
+              Outside of work, I enjoy playing chess, running, collecting, art,
+              and hiking!
             </li>
           </ul>
         </div>
